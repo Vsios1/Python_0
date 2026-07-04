@@ -1,0 +1,17 @@
+nombre = input('Ingrese nombre completo:')
+print('CONVERTIR A MAYUSCULAS')
+print(nombre.upper())
+print('CONVETIR TODO A MINUSCULAS')
+print(nombre.lower())
+print('ELIMINA ESPACION EN BLANCO')
+print(nombre.strip())
+print('CONVERTIR TIPO TITULO')
+print(nombre.title())
+print('DIVICION EN LISTA')
+print(nombre.split())
+print('CANTIDAD DE CARACTERES')
+print(len(nombre))
+print('REEMPLAZO  POR ?')
+medio = len(nombre)//2
+
+print(nombre.replace(nombre[medio-1],'?'))
